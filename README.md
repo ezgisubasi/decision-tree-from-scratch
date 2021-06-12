@@ -21,7 +21,7 @@ Gini index and entropy are two separate methods used to measure homogeneity. The
 ## Entropy:
 
 <p align="center"> 
-  <img width="300" alt="Ekran Resmi 2021-06-12 09 27 14" src="https://user-images.githubusercontent.com/52889449/121767375-7b3fa680-cb60-11eb-830b-f2b8073eba09.png">
+  Entropy Formula: <img width="300" alt="Ekran Resmi 2021-06-12 09 27 14" src="https://user-images.githubusercontent.com/52889449/121767375-7b3fa680-cb60-11eb-830b-f2b8073eba09.png">
   <img width="435" alt="Ekran Resmi 2021-06-12 09 27 35" src="https://user-images.githubusercontent.com/52889449/121767376-7e3a9700-cb60-11eb-97f1-a7d567535df1.png">
 </p>
 
@@ -29,7 +29,7 @@ Gini index and entropy are two separate methods used to measure homogeneity. The
 ## Gini Index:
 
 <p align="center"> 
-  <img width="300" alt="Ekran Resmi 2021-06-12 09 27 06" src="https://user-images.githubusercontent.com/52889449/121767386-88f52c00-cb60-11eb-8cf4-987c5ba2e11c.png">
+  Gini Index Formula: <img width="300" alt="Ekran Resmi 2021-06-12 09 27 06" src="https://user-images.githubusercontent.com/52889449/121767386-88f52c00-cb60-11eb-8cf4-987c5ba2e11c.png">
   <img width="435" alt="Ekran Resmi 2021-06-12 09 27 43" src="https://user-images.githubusercontent.com/52889449/121767389-8b578600-cb60-11eb-89e5-5f7774762ff3.png">
 </p>
 
