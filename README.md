@@ -11,7 +11,7 @@ The Decision Tree algorithm is a problem/decision based supervised algorithm tha
 The decision tree algorithm has a recursive structure. This structure is also called divide and conquer because it divides the data into subsets and continues this process over and over again until it finds the smallest subset. When the stopping criteria are met or the subset is sufficiently homogeneous, the tree stops forming. The algorithm looks at each interval to find the best split during the split process and selects the most homogeneous part. Thus, that interval turns into the node where the condition is located. 
 
 <p align="center"> 
-  <img width="568" alt="Ekran Resmi 2021-06-11 22 25 37" src="https://user-images.githubusercontent.com/52889449/121742596-b44c2c80-cb08-11eb-9fb5-0b56aeb5f93a.png">
+  <img width="568" alt="Ekran Resmi 2021-06-11 22 25 37" src="https://user-images.githubusercontent.com/52889449/121767436-dffb0100-cb60-11eb-86a1-e1bf4430bdc1.png">
 </p>
 
 # Difference between Entropy and Gini Index
