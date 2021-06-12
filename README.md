@@ -65,9 +65,9 @@ Low vs High Information Gain;
 
 # Hyperparameters: max_depth and min_samples
 
-* max_depth: * The theoretical maximum depth a decision tree can achieve is one less than the number of training samples, but no algorithm will let you reach this point for obvious reasons, one big reason being overfitting. Therefore this parameter determines the maximum depth of the tree in order to prevent overfitting. 
+* max_depth:  The theoretical maximum depth a decision tree can achieve is one less than the number of training samples, but no algorithm will let you reach this point for obvious reasons, one big reason being overfitting. Therefore this parameter determines the maximum depth of the tree in order to prevent overfitting. 
 
-* min_samples: * 
+* min_samples: This is the minimum number of samples, or data points, that are required to be present in the leaf node. The leaf node is the last node of the tree.
 
 # Outputs of the given dataset
 
