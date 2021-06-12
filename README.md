@@ -20,9 +20,14 @@ Gini index and entropy are two separate methods used to measure homogeneity. The
 
 ## Entropy:
 
-<p> 
-   Entropy Formula: <img width="400" alt="Ekran Resmi 2021-06-12 09 27 14" src="https://user-images.githubusercontent.com/52889449/121767375-7b3fa680-cb60-11eb-830b-f2b8073eba09.png">
-  Min and Max Values: <img width="435" alt="Ekran Resmi 2021-06-12 09 27 35" src="https://user-images.githubusercontent.com/52889449/121767376-7e3a9700-cb60-11eb-97f1-a7d567535df1.png">
+<p align="center"> 
+   Entropy Formula: 
+          <img width="400" alt="Ekran Resmi 2021-06-12 09 27 14" src="https://user-images.githubusercontent.com/52889449/121767375-7b3fa680-cb60-11eb-830b-f2b8073eba09.png">
+</p>
+
+<p align="center"> 
+  Min and Max Values: 
+          <img width="435" alt="Ekran Resmi 2021-06-12 09 27 35" src="https://user-images.githubusercontent.com/52889449/121767376-7e3a9700-cb60-11eb-97f1-a7d567535df1.png">
 </p>
 
 
