@@ -20,9 +20,13 @@ Gini index and entropy are two separate methods used to measure homogeneity. The
 
 ## Entropy:
 
+Formula;
+
 <p align="center"> 
     <img width="400" alt="Ekran Resmi 2021-06-12 09 27 14" src="https://user-images.githubusercontent.com/52889449/121767375-7b3fa680-cb60-11eb-830b-f2b8073eba09.png">
 </p>
+
+Max and Min Values;
 
 <p align="center"> 
     <img width="435" alt="Ekran Resmi 2021-06-12 09 27 35" src="https://user-images.githubusercontent.com/52889449/121767376-7e3a9700-cb60-11eb-97f1-a7d567535df1.png">
@@ -31,9 +35,13 @@ Gini index and entropy are two separate methods used to measure homogeneity. The
 
 ## Gini Index:
 
+Formula;
+
 <p align="center"> 
   <img width="400" alt="Ekran Resmi 2021-06-12 09 27 06" src="https://user-images.githubusercontent.com/52889449/121767386-88f52c00-cb60-11eb-8cf4-987c5ba2e11c.png">
 </p>
+
+Max and Min Values;
 
 <p align="center"> 
   <img width="435" alt="Ekran Resmi 2021-06-12 09 27 43" src="https://user-images.githubusercontent.com/52889449/121767389-8b578600-cb60-11eb-89e5-5f7774762ff3.png">
@@ -43,8 +51,15 @@ Gini index and entropy are two separate methods used to measure homogeneity. The
 
 Entropy or gini index calculates homogeneity in a given range, while information gain considers the effect of the split in each probability feature on the entire dataset by calculating the change in the homogeneity that would result from a split on each possible feature.
 
+Formula; 
+
 <p align="center"> 
   <img width="372" alt="Ekran Resmi 2021-06-12 09 37 44" src="https://user-images.githubusercontent.com/52889449/121767860-a8418880-cb63-11eb-8c43-642cd1a99b70.png">
+</p>
+
+How it works;
+
+<p align="center"> 
   <img width="531" alt="Ekran Resmi 2021-06-12 09 37 32" src="https://user-images.githubusercontent.com/52889449/121767861-a972b580-cb63-11eb-886e-4ae05f78eece.png">
 </p>
 
