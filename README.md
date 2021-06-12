@@ -11,7 +11,7 @@ The Decision Tree algorithm is a problem/decision based supervised algorithm tha
 The decision tree algorithm has a recursive structure. This structure is also called divide and conquer because it divides the data into subsets and continues this process over and over again until it finds the smallest subset. When the stopping criteria are met or the subset is sufficiently homogeneous, the tree stops forming. The algorithm looks at each interval to find the best split during the split process and selects the most homogeneous part. Thus, that interval turns into the node where the condition is located. 
 
 <p align="center"> 
-  <img width="568" alt="Ekran Resmi 2021-06-11 22 25 37" src="https://user-images.githubusercontent.com/52889449/121767436-dffb0100-cb60-11eb-86a1-e1bf4430bdc1.png">
+  <img width="500" alt="Ekran Resmi 2021-06-11 22 25 37" src="https://user-images.githubusercontent.com/52889449/121767436-dffb0100-cb60-11eb-86a1-e1bf4430bdc1.png">
 </p>
 
 # Difference between Entropy and Gini Index
@@ -23,7 +23,7 @@ Gini index and entropy are two separate methods used to measure homogeneity. The
 Formula;
 
 <p align="center"> 
-    <img width="400" alt="Ekran Resmi 2021-06-12 09 27 14" src="https://user-images.githubusercontent.com/52889449/121767375-7b3fa680-cb60-11eb-830b-f2b8073eba09.png">
+    <img width="350" alt="Ekran Resmi 2021-06-12 09 27 14" src="https://user-images.githubusercontent.com/52889449/121767375-7b3fa680-cb60-11eb-830b-f2b8073eba09.png">
 </p>
 
 Max and Min Values;
@@ -38,7 +38,7 @@ Max and Min Values;
 Formula;
 
 <p align="center"> 
-  <img width="400" alt="Ekran Resmi 2021-06-12 09 27 06" src="https://user-images.githubusercontent.com/52889449/121767386-88f52c00-cb60-11eb-8cf4-987c5ba2e11c.png">
+  <img width="350" alt="Ekran Resmi 2021-06-12 09 27 06" src="https://user-images.githubusercontent.com/52889449/121767386-88f52c00-cb60-11eb-8cf4-987c5ba2e11c.png">
 </p>
 
 Max and Min Values;
@@ -71,15 +71,16 @@ Low vs High Information Gain;
 
 # Outputs of the given dataset
 
-
+When we look at these graphs as a result of tuning hyperparameters, the highest accuracy is obtained for both gini index and entropy while max_depth is 45. On the other hand, when min_samples is 14 and above, the highest accuracy is also obtained for two criteria.
 
 <p align="center"> 
-  <img width="568" alt="Ekran Resmi 2021-06-11 22 25 37" src="https://user-images.githubusercontent.com/52889449/121742596-b44c2c80-cb08-11eb-9fb5-0b56aeb5f93a.png">
-<img width="568" alt="Ekran Resmi 2021-06-11 22 26 10" src="https://user-images.githubusercontent.com/52889449/121742622-badaa400-cb08-11eb-9a88-fd80f194464f.png">
+  <img width="500" alt="Ekran Resmi 2021-06-11 22 25 37" src="https://user-images.githubusercontent.com/52889449/121742596-b44c2c80-cb08-11eb-9fb5-0b56aeb5f93a.png">
+<img width="500" alt="Ekran Resmi 2021-06-11 22 26 10" src="https://user-images.githubusercontent.com/52889449/121742622-badaa400-cb08-11eb-9a88-fd80f194464f.png">
 </p>
 
 # Comparison with Scikit-Learn
 
+When the decision tree algorithm written from scratch is compared with the scikit-learn version, it is observed that the accuracy of scikit-learn is higher for both criteria. This may be because the data passed through one-hot encoding before running the scikit-learn algorithm.
 
 <p align="center"> 
   <img width="568" alt="scikit-vs-scratch" src="https://user-images.githubusercontent.com/52889449/121765903-f8661e00-cb56-11eb-8bd4-e8f90144501f.png">  
