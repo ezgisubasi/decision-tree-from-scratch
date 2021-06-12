@@ -3,7 +3,7 @@
 The Decision Tree algorithm is a problem/decision based supervised algorithm that has a tree structure and includes all possible outcomes depending on the conditions. In this program, the decision tree classifier written from scratch and scikit-learn version applied to the Titanic dataset. The decision tree algorithm written from scratch includes entropy and gini index in order to use calculate homogeneity as options, as well as max_depth and min_samples for tuning hyperparameters. Before the comparing scratch algorithm with scikit-learn, the dataset is made ready by passing through one-hot encoding for the aim of using in scikit-learn version.
 
 <p align="center"> 
-  <img width="568" alt="Ekran Resmi 2021-06-11 22 25 37" src="https://user-images.githubusercontent.com/52889449/121766540-4846e400-cb5b-11eb-829d-b2367233eb28.png">
+  <img width="600" alt="Ekran Resmi 2021-06-11 22 25 37" src="https://user-images.githubusercontent.com/52889449/121766540-4846e400-cb5b-11eb-829d-b2367233eb28.png">
 </p>
 
 # Divide and Conquer
