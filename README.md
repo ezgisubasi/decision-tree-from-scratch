@@ -2,12 +2,42 @@
 
 The Decision Tree algorithm is a problem/decision based supervised algorithm that has a tree structure and includes all possible outcomes depending on the conditions. In this program, the decision tree classifier written from scratch and scikit-learn version applied to the Titanic dataset. The decision tree algorithm written from scratch includes entropy and gini index in order to use calculate homogeneity as options, as well as max_depth and min_samples for tuning hyper parameters. Before the comparing scratch algorithm with scikit-learn, the dataset is made ready by passing through one-hot encoding for the aim of using in scikit-learn version.
 
+<p align="center"> 
+  <img width="568" alt="Ekran Resmi 2021-06-11 22 25 37" src="https://user-images.githubusercontent.com/52889449/121766540-4846e400-cb5b-11eb-829d-b2367233eb28.png">
+</p>
+
+# Divide and Conquer
+
+The decision tree algorithm has a recursive structure. This structure is also called divide and conquer because it divides the data into subsets and continues this process over and over again until it finds the smallest subset. When the stopping criteria are met or the subset is sufficiently homogeneous, the tree stops forming. The algorithm looks at each interval to find the best split during the split process and selects the most homogeneous part. Thus, that interval turns into the node where the condition is located. 
+
+<p align="center"> 
+  <img width="568" alt="Ekran Resmi 2021-06-11 22 25 37" src="https://user-images.githubusercontent.com/52889449/121742596-b44c2c80-cb08-11eb-9fb5-0b56aeb5f93a.png">
+</p>
+
 # Difference between Entropy and Gini Index
+
+Gini index and entropy are two separate methods used to measure homogeneity. The biggest difference is that gini values in the range of 0-0.5, while entropy values in the range of 0-1. Entropy is more complex because it uses logarithms in its formula, so gini index works faster.
+
 ## Entropy:
+
+<p align="center"> 
+  <img width="300" alt="Ekran Resmi 2021-06-12 09 27 14" src="https://user-images.githubusercontent.com/52889449/121767375-7b3fa680-cb60-11eb-830b-f2b8073eba09.png">
+  <img width="435" alt="Ekran Resmi 2021-06-12 09 27 35" src="https://user-images.githubusercontent.com/52889449/121767376-7e3a9700-cb60-11eb-97f1-a7d567535df1.png">
+</p>
+
 
 ## Gini Index:
 
+<p align="center"> 
+  <img width="300" alt="Ekran Resmi 2021-06-12 09 27 06" src="https://user-images.githubusercontent.com/52889449/121767386-88f52c00-cb60-11eb-8cf4-987c5ba2e11c.png">
+  <img width="435" alt="Ekran Resmi 2021-06-12 09 27 43" src="https://user-images.githubusercontent.com/52889449/121767389-8b578600-cb60-11eb-89e5-5f7774762ff3.png">
+</p>
 
+## Information Gain:
+
+<p align="center"> 
+  <img width="568" alt="Ekran Resmi 2021-06-11 22 25 37" src="https://user-images.githubusercontent.com/52889449/121742596-b44c2c80-cb08-11eb-9fb5-0b56aeb5f93a.png">
+</p>
 
 # Hyper Parameters: max_depth and min_samples
 ## max_depth:
